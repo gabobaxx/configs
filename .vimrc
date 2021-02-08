@@ -1,14 +1,11 @@
+" config file for vim
 
 " echom "Welcome master. HAPPY HACKING >.<"
-set cursorline
-set ruler
 
 so ~/.vim/plugins.vim
 so ~/.vim/plugin-config.vim
 so ~/.vim/maps.vim 
 
-"" Searching
-set hlsearch                    " highlight matches
 
 " line enables syntax highlighting by default.
 if has("syntax")
@@ -31,9 +28,14 @@ filetype plugin indent on
 " differently from regular Vi. They are highly recommended though.
 set showcmd		" Show (partial) command in status line.
 set showmatch		" Show matching brackets.
-set ignorecase		" Do case insensitive matching
-set smartcase		" Do smart case matching
-set incsearch		" Incremental search
+set cursorline 		" Set a line in the bottom
+
+" searching
+set incsearch		" Incremental search.
+set hlsearch 		" Highlight matches.
+set ignorecase 		" Do case insensitive matching.
+set smartcase 		" Do smart case matching.
+
 set autowrite		" Automatically save before commands like :next and :make
 "set hidden		" Hide buffers when they are abandoned
 set mouse=a		" Enable mouse usage (all modes)
