@@ -13,3 +13,6 @@ nmap <leader>e ddi
 "map (global map)
 map <c-p> <esc> xp
 map qq <Esc> 
+
+" open another file 
+map <c-n> :vsplit $<cr>
