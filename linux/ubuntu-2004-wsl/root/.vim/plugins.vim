@@ -8,4 +8,8 @@ Plug 'itchyny/lightline.vim'
 Plug 'morhetz/gruvbox'
 Plug 'shinchu/lightline-gruvbox.vim'
 
+" git
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-repeat'
+
 call plug#end()
