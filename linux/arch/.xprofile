@@ -1,0 +1,20 @@
+# env vars
+export PATH=$HOME/.local/bin:$PATH
+
+# keyboard layout 
+setxkbmap us &
+
+# network
+nm-applet &
+
+# volume icon
+volumeicon &
+
+# automount devices (usb)
+udiskie -t &
+
+# wallpaper 
+~/.fehbg &
+
+# composer
+picom &
