@@ -1,0 +1,14 @@
+# Ignore everything
+/*
+
+# Except
+!.gitignore
+#!.gitmodules
+#!.bashrc
+#!.spectrwm.conf
+#!.baraction.sh
+#!.xsession
+!.xprofile
+#!.Xresources
+!.config
+#!.local
