@@ -22,4 +22,4 @@ alias c='ccat -G Plaintext="blink" -G Keyword="purple" -G String="darkgreen" -G 
 alias cat='cat -n'
 
 # copy configs
-alias cpalias='rm ~/Documents/code/configs/gabriel-configs/linux/arch/.bash_aliases | cp ~/.bash_aliases ~/Documents/code/configs/gabriel-configs/linux/arch/'
+alias cpalias='cp ~/.bash_aliases ~/Documents/code/configs/gabriel-configs/linux/arch/'
