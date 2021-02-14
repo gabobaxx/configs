@@ -1,3 +1,5 @@
+# TODO: README with the programas that have to download.  
+
 # some more ls aliases
 alias ll='exa --long --header --git --all --group-directories-first'
 alias ls='exa --group-directories-first'
@@ -20,6 +22,9 @@ alias tree='exa -T'
 alias grep='grep --color=auto' 
 alias c='ccat -G Plaintext="blink" -G Keyword="purple" -G String="darkgreen" -G Punctuation="brown" -G Comment="faint"'
 alias cat='cat -n'
+alias configs='cd ~/Documents/code/configs/gabriel-configs/'
 
 # copy configs
 alias cpalias='cp ~/.bash_aliases ~/Documents/code/configs/gabriel-configs/linux/arch/'
+alias cphelp='cp ~/.help ~/Documents/code/configs/gabriel-configs/linux/arch/'
+
