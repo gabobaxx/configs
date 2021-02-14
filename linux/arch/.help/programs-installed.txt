@@ -1,0 +1,34 @@
+PROGRAMAS INSTALADOS EN ARCH LINUX
+
+TERMINALES
+xterm
+alacritty
+
+MENUS
+rofi 
+thunar
+
+GESTOR DE VENTANAS 
+lightdm 
+lightdm-gtk-greeter 
+qtile 
+
+EDITORES DE CODIGO 
+vscode 
+neovim 
+nano
+
+NAVEGADORES
+firefox
+
+PROGRAMAS DE TERMINAL 
+neofetch 
+ccat 
+exa
+ranger 			(explorador de archivos)
+
+MULTIMEDIA
+vlc			(visualizador de videos y multimedia)
+geeqie			(vizualizador de imagenes)
+feh			(visualizador de imagenes, wallpaper changer)
+nitrogen 		(cambiador el wallpaper)

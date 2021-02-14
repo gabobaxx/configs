@@ -1,0 +1,31 @@
+
+VISUALIZA CONTENIDO DE LOS ARCHIVOS
+cat test_1.txt test_2.txt 
+es lo mismo a escribir
+cat test_?.txt
+cat test_*
+
+CONCATENA TODOS LOS ARCHIVOS QUE EMPIEZAN POR t EN EL ARCHIVO combined.txt 
+cat t* > combined.txt
+
+AGREGA EL CONTENIDO DE LOS ARCHIVOS AL FINAL DEL ARCHIVO combined.txt
+cat t* >> combined.txt
+
+MUESTRA EL CONTENIDO DE ARCHIVOS POR LINEAS
+less combined.txt
+
+CUENTA LAS LINEAS DE UN ARCHIVO 
+wc -l combined.txt
+
+COMANDOS COMBINADOS 
+ls ~ | wc -l 
+
+UNIQ SOLO MUESTRA LAS LINEAS REPETIDAS UNA SOLA VEZ
+uniq combined.txt
+cat combined.txt | uniq | wc -l 
+
+ORDENA ALFABETICAMENTE EL CONTENIDO 
+sort combined.txt | uniq | wc -l
+
+REINICIA LA TERMINAL SIN SALIR DE ELLA
+exec bash
