@@ -1,0 +1,12 @@
+
+i → Mostrar el archivo.
+r → Abrir archivo con el programa elegido.
+cw → Renombrar archivo.
+/ → Buscar archivos (n | p saltar a la coincidencia siguiente / anterior).
+p → Pegar archivo.
+espacio → Seleccionar archivo actual.
+:delete → Eliminar el archivo seleccionado.
+:mkdir → Crear un directorio.
+:touch → Crear un archivo.
+:rename → Renombrar archivo.
+
