@@ -18,7 +18,8 @@ alias e='exec bash'
 alias r='ranger'
 
 # some more aliases 
-alias cls='clear && ll'
+alias cls='clear'
+alias cll='clear && ll'
 alias tree='exa -T'
 alias grep='grep --color=auto' 
 alias c='ccat -G Plaintext="blink" -G Keyword="purple" -G String="darkgreen" -G Punctuation="brown" -G Comment="faint"'
