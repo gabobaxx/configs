@@ -16,6 +16,9 @@ alias v='nvim'
 alias nf='neofetch'
 alias e='exec bash'
 alias r='ranger'
+alias dev-list='simple-mtpfs -l'
+alias dev-mount='simple-mtpfs --device 1 ~/mounted'
+alias addalias='v ~/.bash_aliases'
 
 # some more aliases 
 alias cls='clear'
@@ -28,5 +31,5 @@ alias configs='cd ~/Documents/code/configs/gabriel-configs/'
 
 # copy configs
 alias cpalias='cp ~/.bash_aliases ~/Documents/code/configs/gabriel-configs/linux/arch/'
-alias cphelp='cp ~/.help ~/Documents/code/configs/gabriel-configs/help'
+alias cphelp='cp ~/.help/* ~/Documents/code/configs/gabriel-configs/help/'
 
