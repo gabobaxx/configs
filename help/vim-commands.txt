@@ -3,8 +3,8 @@ GENERAL COMMANDS
 tab 	            >>  Next buffer
 jk or kj or ii  	>>  Go to normal mode (from insert)
 alt + [hjkl] 	    >>  Resize split
-leader + b 	        >>  Close buffer
-leader + e          >>  Delete curretn line and set insert mode
+leader + c 	        >>  Close buffer
+leader + e          >>  Delete current line and set insert mode
 control + [hjkl]    >> 	Navigate splits
 control + s 	    >>  Save
 control + q 	    >>  Save and quit
