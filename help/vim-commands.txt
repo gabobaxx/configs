@@ -1,0 +1,22 @@
+GENERAL COMMANDS
+    KEY 	                    ACTION
+tab 	            >>  Next buffer
+jk or kj or ii  	>>  Go to normal mode (from insert)
+alt + [hjkl] 	    >>  Resize split
+leader + b 	        >>  Close buffer
+leader + e          >>  Delete curretn line and set insert mode
+control + [hjkl]    >> 	Navigate splits
+control + s 	    >>  Save
+control + q 	    >>  Save and quit
+control + u         >>  Make uppercase current line 
+shift + tab 	    >>  Previous buffer
+shift + < or > 	    >>  Indent one level or remove it (visual)
+shift + k or j 	    >>  Move selected line down or up (visual)
+
+PLUGIN KEYBINDINGS:
+    KEY 	                    ACTION
+leader  + f 	    >>  Fuzzy search
+leader  + / 	    >>  Comment selected line or block
+leader  + p 	    >>  Format document with prettier
+control + b 	    >>  Toggle NerdTree
+shift   + k 	    >>  Function or class documentation and arg types
