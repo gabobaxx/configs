@@ -9,7 +9,7 @@ alias dir='dir --color=yes'
 alias rm='rm -i --verbose'
 alias mv='mv -i --verbose'
 alias rmdir='rmdir -i --verbose'
-alias cp='cp -r -i --verbose'
+alias cp='cp -r --verbose'
 
 # shortcuts
 alias v='nvim'
