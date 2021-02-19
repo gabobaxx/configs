@@ -68,7 +68,7 @@ primary_widgets = [
     # Packages to Update
     powerline('color2', 'color4'),                                      # Powerline 
     icon(bg="color2", text=' '),                                       # Icon: nf-fa-download
-    widget.Pacman(**base(bg='color2'), update_interval=1800),           # Widget
+    widget.CheckUpdates(**base(bg='color2'), update_interval=1800),     # Widget
 
     # Network
     powerline('color3', 'color2'),                                      # Powerline
