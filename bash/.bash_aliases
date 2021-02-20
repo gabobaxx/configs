@@ -8,14 +8,13 @@ alias dir='dir --color=yes'
 # interactive aliases
 alias rm='rm -i --verbose'
 alias mv='mv -i --verbose'
-alias rmdir='rmdir -i --verbose'
 alias cp='cp -r --verbose'
+alias rmdir='rmdir --verbose'
 
 # shortcuts
 alias v='nvim'
 alias nf='neofetch'
-alias e='exec bash'
-alias z='exec zsh'
+alias e='exec $SHELL -l'
 alias r='ranger'
 alias dev-list='simple-mtpfs -l'
 alias dev-mount='simple-mtpfs --device 1 ~/mounted'
