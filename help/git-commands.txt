@@ -1,0 +1,3 @@
+git merge           >> Une dos ramas con un commit de merge. 
+git merge --rebase  >> Une dos ramas pero sin commits. 
+git merge --squash  >> Une dos ramas y todos sus commits en uno solo.

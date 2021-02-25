@@ -15,6 +15,7 @@ qtile
 
 EDITORES DE CODIGO 
 vscode 
+vscodium
 neovim 
 nano
 
@@ -25,10 +26,10 @@ PROGRAMAS DE TERMINAL
 neofetch 
 ccat 
 exa
-ranger 			(explorador de archivos)
+ranger 		>>	(explorador de archivos)
 
 MULTIMEDIA
-vlc			(visualizador de videos y multimedia)
-geeqie			(vizualizador de imagenes)
-feh			(visualizador de imagenes, wallpaper changer)
-nitrogen 		(cambiador el wallpaper)
+vlc		    >>	(visualizador de videos y multimedia)
+geeqie		>>	(vizualizador de imagenes)
+feh			>>  (visualizador de imagenes, wallpaper changer)
+nitrogen 	>>	(cambiador el wallpaper)
