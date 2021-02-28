@@ -5,7 +5,7 @@ call plug#begin('~/.config/nvim/plugged')
 
     if exists('g:vscode')
         " Easy motion for VSCode
-"        Plug 'asvetliakov/vim-easymotion'
+        Plug 'asvetliakov/vim-easymotion'
     else
         " Syntax support
         Plug 'sheerun/vim-polyglot'
