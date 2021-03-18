@@ -13,6 +13,7 @@ alias rmdir='rmdir --verbose'
 
 # shortcuts
 alias v='nvim'
+alias code='vscodium'
 alias nf='neofetch'
 alias e='exec $SHELL -l'
 alias r='ranger'
