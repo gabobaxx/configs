@@ -32,7 +32,7 @@ alias ip="ip route get 1.2.3.4 | awk '{print $7}'"
 alias rmpacdb='sudo rm /var/lib/pacman/db.lck'
 
 # copy configs
-alias cpalias='cp ~/.bash_aliases ~/Workspaces/code/configs/gabriel-configs/bash/'
-alias cphelp='cp ~/.help/* ~/Workspaces/code/configs/gabriel-configs/help/'
-alias cpvim='cp ~/.config/nvim ~/Workspaces/code/configs/gabriel-configs/linux/arch/.config/'
+alias cpalias='cp ~/.bash_aliases ~/workspaces/code/configs/gabriel-configs/bash/'
+alias cphelp='cp ~/.help/* ~/workspaces/code/configs/gabriel-configs/help/'
+alias cpvim='cp ~/.config/nvim ~/workspaces/code/configs/gabriel-configs/linux/arch/.config/'
 
