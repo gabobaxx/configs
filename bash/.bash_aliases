@@ -27,7 +27,6 @@ alias cll='clear && ll'
 alias tree='exa -T'
 alias grep='grep --color=auto' 
 alias c='ccat -G Plaintext="blink" -G Keyword="purple" -G String="darkgreen" -G Punctuation="brown" -G Comment="faint"'
-alias cat='cat -n'
 alias configs='cd ~/Workspaces/code/configs/gabriel-configs/'
 alias ip="ip route get 1.2.3.4 | awk '{print $7}'"
 alias rmpacdb='sudo rm /var/lib/pacman/db.lck'
