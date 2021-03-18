@@ -8,3 +8,6 @@ setxkbmap us
 
 CAMBIAR TEMA DEL MENU ROFI 
 rofi-theme-selector
+
+ELIMINAR CACHE DE PACMAN 
+sudo rm /var/lib/pacman/db.lck
