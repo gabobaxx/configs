@@ -22,7 +22,7 @@ icon = lambda fg='text', bg='dark', fontsize=16, text="?": widget.TextBox(
 
 powerline = lambda fg="light", bg="dark": widget.TextBox(
    **base(fg, bg),
-    text="", # Icon: nf-oct-triangle_left
+    text=" ", # Icon: nf-oct-triangle_left
     fontsize=37,
     padding=-2
 )
@@ -66,12 +66,12 @@ primary_widgets = [
     widget.CurrentLayout(**base(bg='color4'), padding=5),               # Widget
 
     # Packages to Update
-    powerline('color2', 'color4'),                                      # Powerline 
-    icon(bg="color2", text=' '),                                       # Icon: nf-fa-download
-    widget.CheckUpdates(**base(bg='color2'), update_interval=1800),     # Widget
+    # powerline('color2', 'color4'),                                      # Powerline 
+    # icon(bg="color2", text=' '),                                       # Icon: nf-fa-download
+    # widget.CheckUpdates(**base(bg='color2'), update_interval=1800),     # Widget
 
     # Network
-    powerline('color3', 'color2'),                                      # Powerline
+    powerline('color3', 'color4'),                                      # Powerline
     icon(bg="color3", text=' '),                                       # Icon: nf-fa-feed
     widget.Net(**base(bg='color3'), interface='wlan0'),                 # Widget
     
@@ -107,7 +107,8 @@ secondary_widgets = [
 ]
 
 widget_defaults = {
-    'font': 'UbuntuMono Nerd Font Bold',
+    # 'font': 'UbuntuMono Nerd Font Bold',
+    'font': 'JetBrains Mono',
     'fontsize': 16,
     'padding': 1,
 }

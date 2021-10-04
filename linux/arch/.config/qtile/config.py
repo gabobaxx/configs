@@ -2,7 +2,6 @@
 # Gabriel Bencomo 
 # https://github.com/gabrielba15/configs
 
-
 # Qtile Config File
 # http://www.qtile.org/
 
@@ -12,7 +11,7 @@ from libqtile import hook
 # FROM SETTINGS
 from settings.keys import mod, keys
 from settings.groups import groups
-from settings.layouts import layouts, floating_layout
+from settings.layouts import layouts #, floating_layout
 from settings.widgets import widget_defaults, extension_defaults
 from settings.screens import screens
 from settings.mouse import mouse
@@ -23,7 +22,7 @@ from os import path
 import subprocess
 
 
-@hook.subscribe.startup_once
+hook.subscribe.startup_once
 def autostart():
     subprocess.call([path.join(qtile_path, 'autostart.sh')])
 
