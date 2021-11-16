@@ -12,6 +12,8 @@ alias cp='cp -r --verbose'
 alias rmdir='rmdir --verbose'
 
 # shortcuts
+alias setmapus='setxkbmap us'
+alias setmapes='setxkbmap es'
 alias v='nvim'
 alias code='vscodium'
 alias nf='neofetch'
