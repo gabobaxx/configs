@@ -21,8 +21,8 @@ alias setmapus='setxkbmap us'
 alias setmapes='setxkbmap es'
 alias dev-list='simple-mtpfs -l'
 alias addalias='v ~/.bash_aliases'
-alias gaboportfolio='cd ~/workspaces/gaboland/'
 alias dev-mount='simple-mtpfs --device 1 ~/mounted'
+alias gaboportfolio='cd ~/workspaces/gaboland/portfolio'
 alias setcolor='sh ~/workspaces/testing/scripts/qtilecolor.sh'
 
 # some more aliases 
