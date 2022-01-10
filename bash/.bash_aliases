@@ -21,6 +21,7 @@ alias setmapus='setxkbmap us'
 alias setmapes='setxkbmap es'
 alias dev-list='simple-mtpfs -l'
 alias addalias='v ~/.bash_aliases'
+alias gaboportfolio='cd ~/workspaces/gaboland/'
 alias dev-mount='simple-mtpfs --device 1 ~/mounted'
 alias setcolor='sh ~/workspaces/testing/scripts/qtilecolor.sh'
 
@@ -43,3 +44,4 @@ alias cpqtile='cp ~/.config/qtile ~/workspaces/configs/gabriel-configs/linux/arc
 # vscode aliases 
 alias codejs='code ~/workspaces/vscode-workspaces/ts-js.code-workspace' # open js workspace
 alias codegabo= 'code ~/workspaces/vscode-workspaces/gaboland.code-workspace' # open gaboland workspace
+
