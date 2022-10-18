@@ -1,0 +1,30 @@
+colors:
+  normal:
+    black: '#1e2127'
+    blue: '#61afef'
+    cyan: '#56b6c2'
+    green: '#d19a66'
+    magenta: '#d19a66'
+    red: '#ea6f91'
+    white: '#e6efff'
+    yellow: '#98c379'
+  primary:
+    background: '#1e2127'
+    bright_foreground: '#e6efff'
+    foreground: '#abb2bf'
+font:
+  bold:
+    family: UbuntuMono Nerd Font
+  italic:
+    family: UbuntuMono Nerd Font
+  normal:
+    family: UbuntuMono Nerd Font
+  offset:
+    x: 0
+    y: 0
+  size: 14.0
+window:
+  opacity: 0.9
+  padding:
+    x: 5
+    y: 2
