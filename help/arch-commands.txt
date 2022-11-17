@@ -11,3 +11,6 @@ rofi-theme-selector
 
 ELIMINAR CACHE DE PACMAN 
 sudo rm /var/lib/pacman/db.lck
+
+LIBERAR CACHE DE LA RAM
+sudo sync && sudo sysctl -w vm.drop_caches=3
