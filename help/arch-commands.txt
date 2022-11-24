@@ -14,3 +14,6 @@ sudo rm /var/lib/pacman/db.lck
 
 LIBERAR CACHE DE LA RAM
 sudo sync && sudo sysctl -w vm.drop_caches=3
+
+LAPTOP Y TELEVISOR RANIA PEQ
+xrandr --output LVDS-1 --primary --mode 1366x768 --pos 0x0 --output HDMI-1 --mode 1680x1050 --pos 0x1080
