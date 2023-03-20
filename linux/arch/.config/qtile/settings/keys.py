@@ -1,4 +1,3 @@
-
 # Gabriel Bencomo
 # https://github.com/gabrielba15/configs
 
@@ -67,16 +66,17 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
 
     # Browser
     ([mod], "f", lazy.spawn("firefox")),
+    ([mod], "b", lazy.spawn("brave")),
 
     # File Explorer
     ([mod], "e", lazy.spawn("thunar")),
 
     # Terminal
-    ([mod], "Return", lazy.spawn("alacritty")),
+    ([mod], "Return", lazy.spawn("kitty")),
 
     # Screenshot
-    ([mod, 'control'], "s", lazy.spawn("scrot -ue 'mv $f ~/Pictures/Screenshots/'")),
-    ([mod, 'control'], "a", lazy.spawn("scrot -se 'mv $f ~/Pictures/Screenshots/'")),
+    ([mod, "control"], "s", lazy.spawn("scrot -ue 'mv $f ~/Pictures/Screenshots/'")),
+    ([mod, "control"], "a", lazy.spawn("scrot -s -e 'mv $f ~/Pictures/Screenshots/'")),
 
     # ------------ Hardware Configs ------------
 

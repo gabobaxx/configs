@@ -1,4 +1,3 @@
-
 # Gabriel Bencomo
 # https://github.com/gabrielba15/configs
 
@@ -8,8 +7,8 @@ from settings.theme import colors
 # Layouts and layout rules
 layout_conf = {
 'border_focus': colors['focus'][0],
-'border_width': 2,
-'margin': 4
+'border_width': 1,
+'margin': 2
 }
 
 layouts = [

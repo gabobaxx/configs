@@ -1,3 +1,4 @@
+
 # Gabriel Bencomo
 # https://github.com/gabrielba15/configs
 
@@ -10,7 +11,7 @@ base = lambda fg='text', bg='dark': {
     'background': colors[bg]
 }
 
-separator = lambda: widget.Sep(**base(), linewidth=0, padding=12)
+separator = lambda: widget.Sep(**base(), linewidth=0, padding=5)
 
 icon = lambda fg='text', bg='dark', fontsize=16, text="?": widget.TextBox(
     **base(fg, bg),
@@ -60,8 +61,8 @@ primary_widgets = [
     separator(),
 
     # Current Layout 
-    powerline('color4', 'dark'),                                        # Powerline
-    widget.CurrentLayoutIcon(**base(bg='color4'), scale=0.65),          # Icon
+    powerline('bg', 'dark'),                                        # Powerline
+    widget.CurrentLayoutIcon(**base(bg='bg'), scale=0.65),          # Icon
     widget.CurrentLayout(**base(bg='color4'), padding=5),               # Widget
 
     # Packages to Update
@@ -70,9 +71,9 @@ primary_widgets = [
     # widget.CheckUpdates(**base(bg='color2'), update_interval=1800),     # Widget
 
     # Network
-    #powerline('color3', 'color4'),                                      # Powerline
-    #icon(bg="color3", text=' '),                                       # Icon: nf-fa-feed
-    #widget.Net(**base(bg='color3'), interface='wlan0'),                 # Widget
+#    powerline('color3', 'color4'),                                      # Powerline
+#    icon(bg="color3", text=' '),                                       # Icon: nf-fa-feed
+#    widget.Net(**base(bg='color3'), interface='wlan0'),                 # Widget
     
     # Date & Clock
     powerline('color1', 'color4'),                                      # Powerline
