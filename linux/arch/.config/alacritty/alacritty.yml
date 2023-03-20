@@ -1,31 +1,30 @@
-background_opacity: 0.5
 colors:
-  bright:
-    black: '0x6f6e85'
-    blue: '0x34738e'
-    cyan: '0xeabbb9'
-    green: '0x9bced7'
-    magenta: '0xc3a5e6'
-    red: '0xea6f91'
-    white: '0xffffff'
-    yellow: '0xf1ca93'
   normal:
-    black: '0x403c58'
-    blue: '0x34738e'
-    cyan: '0xeabbb9'
-    green: '0x9bced7'
-    magenta: '0xc3a5e6'
-    red: '0xea6f91'
-    white: '0xfaebd7'
-    yellow: '0xf1ca93'
+    black: '#1e2127'
+    blue: '#61afef'
+    cyan: '#56b6c2'
+    green: '#d19a66'
+    magenta: '#d19a66'
+    red: '#ea6f91'
+    white: '#e6efff'
+    yellow: '#98c379'
   primary:
-    background: '0x1f1d29'
-    foreground: '0xffffff'
+    background: '#1e2127'
+    bright_foreground: '#e6efff'
+    foreground: '#abb2bf'
 font:
   bold:
-    family: Caskaydia Cove Nerd Font
+    family: UbuntuMono Nerd Font
   italic:
-    family: Caskaydia Cove Nerd Font
+    family: UbuntuMono Nerd Font
   normal:
-    family: Caskaydia Cove Nerd Font
+    family: UbuntuMono Nerd Font
+  offset:
+    x: 0
+    y: 0
   size: 14.0
+window:
+  opacity: 0.9
+  padding:
+    x: 5
+    y: 2
