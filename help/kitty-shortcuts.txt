@@ -1,0 +1,17 @@
+move L ctrl+left 
+move R ctrl+right 
+
+move UP ctrl+up
+move Down ctrl+down 
+
+Close Window ctrl+shift+w
+Rezie Window ctrl+shift+r
+
+Rezise Layout ctrl+shift+l
+
+Open New Tab ctrl+shift+t 
+Change Tab Name ctrl+shift+alt+t
+
+Change Between Tabs ctrl+shift+(R,L)
+
+
