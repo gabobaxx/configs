@@ -1,3 +1,4 @@
+
 # Gabriel Bencomo
 # https://github.com/gabrielba15/configs
 
@@ -10,7 +11,7 @@ base = lambda fg='text', bg='dark': {
     'background': colors[bg]
 }
 
-separator = lambda: widget.Sep(**base(), linewidth=0, padding=12)
+separator = lambda: widget.Sep(**base(), linewidth=0, padding=5)
 
 icon = lambda fg='text', bg='dark', fontsize=16, text="?": widget.TextBox(
     **base(fg, bg),
@@ -31,7 +32,7 @@ workspaces = lambda: [
     widget.GroupBox(
         **base(fg='light'),
         font='UbuntuMono Nerd Font',
-        fontsize=20,
+        fontsize=19,
         margin_y=3,
         margin_x=0,
         padding_y=8,
@@ -39,7 +40,7 @@ workspaces = lambda: [
         borderwidth=1,
         active=colors['active'],
         inactive=colors['inactive'],
-        rounded=True,
+        rounded=False,
         highlight_method='block',
         urgent_alert_method='block',
         urgent_border=colors['urgent'],
@@ -50,10 +51,8 @@ workspaces = lambda: [
         disable_drag=True
     ),
     separator(),
-    widget.WindowName(**base(fg='focus'), fontsize=14, padding=5, font="Comic Mono"),
+    widget.WindowName(**base(fg='focus'), fontsize=14, padding=5),
     separator(),
-		# Systray
-    widget.Systray(background=colors['dark'], padding=10),
 ]
 
 primary_widgets = [
@@ -61,19 +60,29 @@ primary_widgets = [
 
     separator(),
 
+    # Current Layout 
+    powerline('bg', 'dark'),                                        # Powerline
+    widget.CurrentLayoutIcon(**base(bg='bg'), scale=0.65),          # Icon
+    widget.CurrentLayout(**base(bg='color4'), padding=5),               # Widget
+
+    # Packages to Update
+    # powerline('color2', 'color4'),                                      # Powerline 
+    # icon(bg="color2", text=' '),                                       # Icon: nf-fa-download
+    # widget.CheckUpdates(**base(bg='color2'), update_interval=1800),     # Widget
+
+    # Network
+#    powerline('color3', 'color4'),                                      # Powerline
+#    icon(bg="color3", text=' '),                                       # Icon: nf-fa-feed
+#    widget.Net(**base(bg='color3'), interface='wlan0'),                 # Widget
+    
     # Date & Clock
-    # icon(bg="dark", fg="light", fontsize=24, text=' '),
-    widget.Clock(**base(bg='dark', fg="light"), font="Comic Mono",  fontsize=18),
-
-   
-    separator(),
-
-		# Current Layout
-    widget.CurrentLayoutIcon(**base(bg='dark', fg="light"), scale=0.60),
-    widget.CurrentLayout(**base(bg='dark', fg="light"), padding=5, fontsize=18, font="Comic Mono"),
-		
-		separator(),
-		
+    powerline('color1', 'color4'),                                      # Powerline
+    icon(bg="color1", fontsize=17, text=' '),                          # Icon: nf-mdi-calendar_clock
+    widget.Clock(**base(bg='color1'), format='%m/%d/%Y - %H:%M:%S'),    # Widget
+    
+    # Systray
+    powerline('dark', 'color1'),                                        # Powerline
+    widget.Systray(background=colors['dark'], padding=5),               # Widget
 
 ]
 
@@ -86,9 +95,9 @@ secondary_widgets = [
     powerline('color3', 'dark'),                                # Powerline
     widget.CPU(**base(bg='color3')),                            # Widget
 
-    # Memory
+    # Memory    
     powerline('color2', 'color3'),                              # Powerline
-    icon(bg="color2", fontsize=20, text=' '),                  # Icon: nf-mdi-memory
+    icon(bg="color2", fontsize=20, text=' '),                  # Icon: nf-mdi-memory 
     widget.Memory(**base(bg='color2')),                         # Widget
 
     # Current Layout

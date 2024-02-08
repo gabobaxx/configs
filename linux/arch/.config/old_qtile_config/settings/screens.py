@@ -1,3 +1,4 @@
+
 # Gabriel Bencomo
 # https://github.com/gabrielba15/configs
 
@@ -9,7 +10,7 @@ from settings.widgets import primary_widgets, secondary_widgets
 import subprocess
 
 
-status_bar = lambda widgets: bar.Bar(widgets, 32, opacity=0.8, margin=10)
+status_bar = lambda widgets: bar.Bar(widgets, 32, opacity=0.8)
 
 screens = [Screen(top=status_bar(primary_widgets))]
 
@@ -22,3 +23,4 @@ connected_monitors = subprocess.run(
 if connected_monitors > 1:
     for i in range(1, connected_monitors):
         screens.append(Screen(top=status_bar(secondary_widgets)))
+

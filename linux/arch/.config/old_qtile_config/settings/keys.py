@@ -77,7 +77,6 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
     # Screenshot
     ([mod, "control"], "s", lazy.spawn("scrot -ue 'mv $f ~/Pictures/Screenshots/'")),
     ([mod, "control"], "a", lazy.spawn("scrot -s -e 'mv $f ~/Pictures/Screenshots/'")),
-    ([mod, "control"], "z", lazy.spawn("scrot -e 'mv $f ~/Pictures/Screenshots/'")),
 
     # ------------ Hardware Configs ------------
 
