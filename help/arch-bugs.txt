@@ -1,0 +1,21 @@
+# Display Manager Bug (gdm-gnome, lightdm)
+
+# open a tty (Toshiba Laptop)
+ctrl + alt + f2
+
+# verify display manager 
+sudo systemctl status display-manager.service
+
+# disable display manager 
+sudo systemctl disable [display-manager-name].service
+
+# download another display manager (lxdm)
+sudo pacman -S lxdm-gtk3
+
+# enable new display manager 
+sudo systemctl enable lxdm.service 
+
+# reboot system
+sudo reboot now
+
+[done]
