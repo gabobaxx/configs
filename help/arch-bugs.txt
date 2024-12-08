@@ -19,3 +19,11 @@ sudo systemctl enable lxdm.service
 sudo reboot now
 
 [done]
+
+# db lock
+
+error: failed to synchronize all databases (unable to lock database)
+
+solve: sudo rm /var/lib/pacman/db.lck 
+
+[done]
