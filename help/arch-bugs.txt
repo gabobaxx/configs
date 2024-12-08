@@ -27,3 +27,30 @@ error: failed to synchronize all databases (unable to lock database)
 solve: sudo rm /var/lib/pacman/db.lck 
 
 [done]
+
+# PGP keys obsoletes
+
+It may be due to obsolete PGP keys or Arch-signed packages in the repositories.
+
+    Reinstall keyrings including the latest keys:
+
+sudo pacman -Sy archlinux-keyring manjaro-keyring
+
+If you can’t install the keyring because of signature errors, perform step 2 and repeat 1, otherwise proceed to step 3.
+
+    Remove old and possibly expired, revoked or invalid keys by issuing this command:
+
+sudo rm -r /etc/pacman.d/gnupg
+
+    Initialize the pacman keyring:
+
+sudo pacman-key --init
+
+    Load the signature keys:
+
+sudo pacman-key --populate archlinux artix
+
+    Clear out the software packages downloaded during the aborted installation:
+
+sudo pacman -Scc
+sudo pacman -Syyu
