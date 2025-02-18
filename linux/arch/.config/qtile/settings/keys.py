@@ -4,7 +4,7 @@
 ### Qtile keybindings ###
 
 from libqtile.config import Key
-from libqtile.command import lazy
+from libqtile.lazy import lazy
 
 
 mod = "mod4"
@@ -72,7 +72,7 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
     ([mod], "e", lazy.spawn("thunar")),
 
     # Terminal
-    ([mod], "Return", lazy.spawn("kitty")),
+    ([mod], "Return", lazy.spawn("alacritty")),
 
     # Screenshot
     ([mod, "control"], "s", lazy.spawn("scrot -ue 'mv $f ~/Pictures/Screenshots/'")),

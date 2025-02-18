@@ -63,7 +63,7 @@ primary_widgets = [
 
     # Date & Clock
     # icon(bg="dark", fg="light", fontsize=24, text=' '),
-    widget.Clock(**base(bg='dark', fg="light"), font="Comic Mono",  fontsize=18),
+    widget.Clock(**base(bg='dark', fg="light"), font="Comic Mono",  fontsize=18, format='%m/%d/%Y - %H:%M:%S'),
 
    
     separator(),
