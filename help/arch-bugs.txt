@@ -54,3 +54,16 @@ sudo pacman-key --populate archlinux artix
 
 sudo pacman -Scc
 sudo pacman -Syyu
+
+# Corrupt ZSH history file 
+zsh: corrupt history file /home/go/.zsh_history
+
+How to fix it
+
+cd ~
+mv .zsh_history .zsh_history_bad
+strings .zsh_history_bad > .zsh_history
+fc -R .zsh_history
+rm ~/.zsh_history_bad
+
+
