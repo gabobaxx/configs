@@ -4,7 +4,7 @@
 # Except
 !.gitignore
 #!.gitmodules
-#!.bashrc
+!.bashrc
 #!.spectrwm.conf
 #!.baraction.sh
 #!.xsession
@@ -14,3 +14,4 @@
 #!.local
 !.bash_aliases
 !.help
+!wallpapers/
