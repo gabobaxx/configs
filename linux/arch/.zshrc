@@ -1,3 +1,4 @@
+# Uncomment the following line to use case-sensitive completion.
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -18,7 +19,6 @@ ZSH_THEME="dst"
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
-# Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion.
@@ -110,20 +110,21 @@ export PATH=/bin:/home/gabo/.nvm/versions/node/v15.8.0/bin:/home/gabo/.local/bin
 export DENO_INSTALL="/home/gabo/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                    # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This load nvm completion
+# nvm
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                    # This loads nvm
+#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This load nvm completion
 
 
 # fnm
-export PATH=/home/gabo/.fnm:$PATH
-eval "`fnm env`"
+#export PATH=/home/gabo/.fnm:$PATH
+#eval "`fnm env`"
 
 # bun completions
-[ -s "/home/gabo/.bun/_bun" ] && source "/home/gabo/.bun/_bun"
+#[ -s "/home/gabo/.bun/_bun" ] && source "/home/gabo/.bun/_bun"
 
 # bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
+#export BUN_INSTALL="$HOME/.bun"
+#export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Plugins
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
